@@ -13,18 +13,11 @@
   "license": "MIT",
   "icon": "assets/shut_badlion/icon.png",
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "io.github.tropheusj.shut_badlion.ShutBadlion"
-    ]
-  },
   "mixins": [
     "shut_badlion.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.11.6",
-    "fabric": "*",
-    "minecraft": ">=1.17.1",
-    "java": ">=16"
+    "minecraft": ">=1.16.5"
   }
 }

@@ -1,4 +1,4 @@
-version:2730
+version:2586
 autoJump:false
 autoSuggestions:true
 chatColors:true
@@ -11,14 +11,13 @@ discrete_mouse_scroll:false
 invertYMouse:false
 realmsNotifications:true
 reducedDebugInfo:false
-snooperEnabled:true
+snooperEnabled:false
 showSubtitles:false
 touchscreen:false
 fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:false
-darkMojangStudiosBackground:false
 mouseSensitivity:0.5
 fov:0.0
 screenEffectScale:1.0
@@ -34,7 +33,7 @@ graphicsMode:1
 ao:2
 biomeBlendRadius:1
 renderClouds:true
-resourcePacks:["Fabric Mods"]
+resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -50,7 +49,7 @@ overrideWidth:0
 overrideHeight:0
 heldItemTooltips:true
 chatHeightFocused:1.0
-chatDelay:0.0
+chatDelay: 0.0
 chatHeightUnfocused:0.44366195797920227
 chatScale:1.0
 chatWidth:1.0
@@ -63,10 +62,9 @@ tutorialStep:movement
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 hideMatchedNames:true
 joinedFirstServer:false
-hideBundleTutorial:false
 syncChunkWrites:true
 key_key.attack:key.mouse.right
 key_key.use:key.mouse.left
