@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "shut_badlion",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Shut, Badlion",
+  "description": "Fixes the log spam caused by joining a Hypixel lobby containing a player using Badlion.",
   "authors": [
     "Tropheus Jay"
   ],
   "contact": {
-    "sources": "https://github.com/TropheusJ/fabric-example-mod"
+    "sources": "https://github.com/TropheusJ/shut-badlion"
   },
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/shut_badlion/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.tropheusj.modid.ExampleMod"
+      "io.github.tropheusj.shut_badlion.ShutBadlion"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "shut_badlion.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.11.6",
