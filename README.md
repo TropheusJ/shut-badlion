@@ -1,10 +1,5 @@
-# Fabric Example Mod
-
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the
-IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+# Shut, Badlion
+Ever play on Hypixel? It's got integration with Badlion client. However,
+this integration is done poorly, so all players not using Badlion get their
+logs spammed with a ridiculous amount of errors, inflating log sizes, and
+possibly causing lag. This mod silences these errors, removing the log spam.
